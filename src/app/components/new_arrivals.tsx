@@ -3,6 +3,7 @@ import { FaStar } from "react-icons/fa6";
 import { Poppins } from "next/font/google"
 import { Button } from "@/components/ui/button";
 import { Rubik } from "next/font/google"
+import Link from "next/link";
 
 
 const rubik = Rubik ({
@@ -99,7 +100,9 @@ const Products = () => {
                 </div>
             </div>
             <div className="flex justify-center items-center pt-5">
-               <Button className="flex justify-center rounded-full text-gray-600 text-sm font-extralight bg-white border-gray-300 border-solid border-[1px] hover:bg-slate-400 hover:text-white w-full md:w-[200px] lg:w-[200px] mx-7 md:mx-0">View All</Button>
+                <Link href={"/apidata"}>
+                    <Button className="flex justify-center rounded-full text-gray-600 text-sm font-extralight bg-white border-gray-300 border-solid border-[1px] hover:bg-slate-400 hover:text-white w-full md:w-[200px] lg:w-[200px] mx-7 md:mx-0">View All</Button>
+                </Link>
             </div>
             
             <div className="pt-4">

@@ -5,6 +5,7 @@ import Products2 from "./components/top_selling";
 import Upperfooter from "./components/upper_footer";
 import BrowseNewStyle from "./components/browseByStyle";
 import FooterOnly from "./components/footer";
+import ProductCard from "./products/page";
 
 const Home = () => {
   return(
@@ -14,6 +15,7 @@ const Home = () => {
       <Products />
       <Products2 />
       <BrowseNewStyle />
+      <ProductCard />
       <Upperfooter />
       <FooterOnly />
     </div>

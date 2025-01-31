@@ -10,8 +10,6 @@ import { GoTag } from "react-icons/go";
 import { Button } from "@/components/ui/button";
 import { FaArrowRight } from "react-icons/fa6";
 
-
-
 const lato = Lato ({
     weight: '700',
     subsets: ['latin'],
@@ -29,6 +27,7 @@ const archivo = Archivo_Black ({
     subsets: ['latin'],
     display: 'swap',
 })
+
 
 
 export default function AddToCart () {
